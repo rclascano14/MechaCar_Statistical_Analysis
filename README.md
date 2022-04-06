@@ -28,3 +28,33 @@ The slipe of the linear model would not be considered as zero. This is due to th
 - `Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?`
 
 This model does, in fact, predict the mpg of MechaCar protypes effectively. With a r-squared value of 0.7149, there is a ~71% accuracy to our model, whihc is quite decent and can be used with a good deal of confidcence regarding mpg of various MechaCar prototypes. 
+
+## Deliverable 2 - Summary Statistics on Suspension Coils
+
+<img width="718" alt="Lot Summary" src="https://user-images.githubusercontent.com/95828604/161898086-fe74c964-a3b8-41d9-81e6-a5b43a9cb67c.png">
+
+<img width="725" alt="Total Summary" src="https://user-images.githubusercontent.com/95828604/161898109-d00444ec-0c6c-456f-820d-1a0d390ef570.png">
+
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+The variance of the total summary of Suspension coils comes out to 62.29356 PSI which does not exceed the design specifications of a limit of 100 PSI. However, while in total, the suspension coils meet requirements, when looking at the lot summary, we can see that this is not the case for every lot. The variance for Lot 1 and 2 are well below the limit, but lot 3 has a variance of 170.2861224, which is significantly higher than the design specification limit. Therefore, the current manufacturing data meets the specification in total but not wheen analyzed individually.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

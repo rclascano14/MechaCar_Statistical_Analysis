@@ -23,11 +23,11 @@ The variables that provided a non-random amount of variance to the mpg values in
 
 - `Is the slope of the linear model considered to be zero? Why or why not?`
 
-The slipe of the linear model would not be considered as zero. This is due to the fact that the null hypothesis is rejected with a p-value  of 5.21x10^-8. As this is the case, we can say that the slope cannot be considered as zero and that there is likely more to our linear model than random chance. 
+The slope of the linear model would not be considered as zero. This is due to the fact that the null hypothesis is rejected with a p-value  of 5.21x10^-8. As this is the case, we can say that the slope cannot be considered as zero and that there is likely more to our linear model than random chance. 
 
 - `Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?`
 
-This model does, in fact, predict the mpg of MechaCar protypes effectively. With a r-squared value of 0.7149, there is a ~71% accuracy to our model, whihc is quite decent and can be used with a good deal of confidcence regarding mpg of various MechaCar prototypes. 
+This model does, in fact, predict the mpg of MechaCar protypes effectively. With a r-squared value of 0.7149, there is a ~71% accuracy to our model, which is quite decent and can be used with a good deal of confidence regarding mpg of various MechaCar prototypes. 
 
 ## Deliverable 2 - Summary Statistics on Suspension Coils
 
@@ -47,7 +47,7 @@ The above photo shows that the p-value of 0.06028 is above 0.05 and therefore si
 
 <img width="714" alt="Deliverable 3 Part 2" src="https://user-images.githubusercontent.com/95828604/161899757-42b18dcf-0028-425c-970f-fa30a1fd618b.png">
 
-When viewing the T-tests for all three lots, we can once again, draw a different conclusion, albeit only a slighty different one. Lot 1 and Lot 2 are not statistcally different from the mean, and both have a significant p value, meaning we cannot reject the null hypothesis. Lot 3 on the other hand is statistically different from the mean and with a p-value of 0.04168, which is less than 0.05, we can reject the null hypothesis. 
+When viewing the T-tests for all three lots, we can once again, draw a different conclusion, albeit only a slighty different one. Lot 1 and Lot 2 are not statistically different from the mean, and both have a significant p value, meaning we cannot reject the null hypothesis. Lot 3 on the other hand is statistically different from the mean and with a p-value of 0.04168, which is less than 0.05, we can reject the null hypothesis. 
 
 ## Deliverable 4 - Study Design: MechaCar vs Competition
 
@@ -59,12 +59,12 @@ You can test various metrics pertaining to MechaCar, but for the purpose of this
 
 - `What is the null hypothesis or alternative hypothesis?`
 
-The Null Hypothesis (Ho) is that MechaCar prototypes would have a similar carrying capacity as compared to competiting prototypes.
+The Null Hypothesis (Ho) is that MechaCar prototypes would have a similar carrying capacity as compared to competing prototypes.
 The Alternate Hypothesis (Ha) is that MechaCar prototypes would have either a better or worse carrying capacity as compared to competing prototypes.
 
 - `What statistical test would you use to test the hypothesis? And why?`
 
-I would use two-sample t tests to test the hypothesis as we are attempting to se if two means/measures are equal, similar, or different, which is what two-sample t tests are used for.
+I would use two-sample t tests to test the hypothesis as we are attempting to see if two means/measures are equal, similar, or different, which is what two-sample t tests are used for.
 
 - `What data is needed to run the statistical test?`
 

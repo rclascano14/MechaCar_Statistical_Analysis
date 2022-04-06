@@ -39,11 +39,15 @@ This model does, in fact, predict the mpg of MechaCar protypes effectively. With
 
 The variance of the total summary of Suspension coils comes out to 62.29356 PSI which does not exceed the design specifications of a limit of 100 PSI. However, while in total, the suspension coils meet requirements, when looking at the lot summary, we can see that this is not the case for every lot. The variance for Lot 1 and 2 are well below the limit, but lot 3 has a variance of 170.2861224, which is significantly higher than the design specification limit. Therefore, the current manufacturing data meets the specification in total but not wheen analyzed individually.  
 
+## Deliverable 3 -  T-Tests on Suspension Coils
 
+<img width="717" alt="Deliverable 3 Part 1" src="https://user-images.githubusercontent.com/95828604/161899744-a3809a0d-4bec-4a8e-9e9e-515100a0f172.png">
 
+The above photo shows that the p-value of 0.06028 is above 0.05 and therefore signficant. As such, we cannot reject the null hypothesis. 
 
+<img width="714" alt="Deliverable 3 Part 2" src="https://user-images.githubusercontent.com/95828604/161899757-42b18dcf-0028-425c-970f-fa30a1fd618b.png">
 
-
+When viewing the T-tests for all three lots, we can once again, draw a different conclusion, albeit only a slighty different one. Lot 1 and Lot 2 are not statistcally different from the mean, and both have a significant p value, meaning we cannot reject the null hypothesis. Lot 3 on the other hand is statistically different from the mean and with a p-value of 0.04168, which is less than 0.05, we can reject the null hypothesis. 
 
 
 
